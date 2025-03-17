@@ -49,3 +49,22 @@ ul {
 
 /* solution */
 
+.header {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
